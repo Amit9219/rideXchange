@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev": "cd rideXchange && npm install",
     "vercel-build": "cd rideXchange && npm install && npm run build",
     "build": "cd rideXchange && npm run build"
   },

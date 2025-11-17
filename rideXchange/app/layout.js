@@ -6,6 +6,8 @@ import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: "Vehiqle",
   description: "Find your Dream Car",

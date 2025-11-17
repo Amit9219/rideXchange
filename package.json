@@ -1,9 +1,15 @@
 {
+  "scripts": {
+    "vercel-build": "cd rideXchange && npm install && npm run build",
+    "build": "cd rideXchange && npm run build"
+  },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@hookform/resolvers": "^5.2.2",
     "@prisma/client": "^6.19.0",
     "next": "^16.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-hook-form": "^7.66.0",
     "uuid": "^13.0.0",
     "zod": "^4.1.12"
